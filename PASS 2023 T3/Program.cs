@@ -5,11 +5,12 @@
         public float float1 = 2;
         private float float2 = 3;
 
+        /*
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
 
-            //some comment
+            //say hello everyone
             Console.WriteLine("Riley Says Hello");
             Console.WriteLine("Hi, I'm Peter");
             Console.WriteLine("Hi, I am Anmol");
@@ -39,9 +40,9 @@
             bool im_weird = true;
 
             //self documenting code
-            if (isAwesome && isPeer) 
+            if (isAwesome && isPeer)
             {
-                Console.WriteLine("You guys are Awesome!!!");            
+                Console.WriteLine("You guys are Awesome!!!");
             }
 
 
@@ -53,8 +54,19 @@
 
 
         }
+        */
+        static void Main(string[] args)
+        {
+
+
+        }
+
+
+
 
     }
+
+
 
 
 }
