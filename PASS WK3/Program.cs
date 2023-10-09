@@ -75,6 +75,7 @@ namespace PASS_WK3
 
                 //tempInt = 10 % ((number * 3) / 4 );
 
+                //different forms of concatination. 
                 string output1 = "after all this madness your number is equal to: ";
                 string output2 = "after all this madness your number is equal to: " + tempInt;
                 string output3 = $"after all this madness your number is equal to: {tempInt + number}";
