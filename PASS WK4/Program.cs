@@ -11,6 +11,8 @@
              *  ----- 5min intro/setup -----
              *
              *  recap kahoot (variables and basic loops)
+             *  no kahoot this week, just get everyone to spam chat with different examples of variables. 
+             *  query students for quick revision
              *
              *  ----- 25min to go through this -----
              *
