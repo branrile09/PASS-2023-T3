@@ -37,7 +37,7 @@ namespace PASS_WK4
         void randomshiz()
         {
 
-            int temp = 1;
+            int temp = 2;
             string bluh = "";
 
             switch (temp)
@@ -76,6 +76,9 @@ namespace PASS_WK4
                     {
                         continue;
                     }
+
+
+
                     if (hasDigit && hasLetter)
                     { break; }
                 }

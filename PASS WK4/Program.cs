@@ -51,30 +51,82 @@
 
             //first things first, everyone say Hello and share an unpopular opinion. 
             Console.WriteLine("RB was here, DISCOS BACK BABY!!!!");
+            Console.WriteLine("Rainier here, what up fam!");;
+            Console.WriteLine("CP was here, Ready To Rock!!!");
+            Console.WriteLine("Hello Titus here, I like pouring my morning coffee on my desk!");
 
 
 
 
             // ----- Loops ----
             //1. while loop
-            //a) explanation:            
+            //a) explanation: a loop, that continues during a condition is met, checks the condition before starting            
             //b) example code (loop while meaning of life is != 42 )
 
+            int meaningOfLife = 0;
+            while (meaningOfLife != 42)             
+            {
+                meaningOfLife++;
+            }
 
-            //2. Do While
-            //a) explanation
+
+
+            //2. Do While 
+            /**a) explanation the do while, the do while loop is going to complete at least once the loop and then is going to chech if the condition 
+            is still true, otherwise is going to stop.
+            */
+
+
+
             //b) example code (loop while meaning of life is != 42 )
+            meaningOfLife = 0;
+
+            do
+            {
+                Console.WriteLine("The meaning of life is not" + meaningOfLife);
+                meaningOfLife++;
+                
+            } while (meaningOfLife != 42);
+            Console.WriteLine("We have found the meaning of life!!!!!! is 42. ");
+
 
             //3. For loop
-            //a) explanation
-            //b) example code (100 iterations, number starts at 1, triple it, then half it)
+            //a) explanation : When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+            //b) example code (100 iterations, number starts at 1, triple it, then half it) (titusz)
+            float number = 1;
+            for (int i = 1; i <= 100; i++)
+            {
+                number *= 3;
+                number /= 2;
+                Console.WriteLine(i);
+            }
 
             //4, Foreach
             //a) explanation
+            // Allows you to go through the elements of a collection. (taner)
             //b) example code (iterate through each char in "HiPpoPlatyroo", then output how many vowels in the word  )
+            string letters  = "HiPpoPlatyrOo";
+            string vowels =  "aeiou";
+            string tempLetters = letters.ToLower();
+            int vowelQuantity = 0;
+
+            foreach(char c in tempLetters)
+            {
+                foreach (char c2 in vowels)
+                {
+                    if (c2 == c)
+                    {
+                        vowelQuantity++;
+                        continue;                    
+                    }  
+                }
+            }
+
+            Console.WriteLine(vowelQuantity);
 
 
-
+            
+            // resource -> https://www.w3schools.com/cs/cs_arrays.php
             // ----- Arrays ----
             //1. Create an Array of intigers            
 
@@ -110,7 +162,7 @@
 
 
             //using multidensional arrays can be used for all sorts of things, such as AI, Data Science, Game matrix tables, Path finding, etc
-
+ 
 
 
 
