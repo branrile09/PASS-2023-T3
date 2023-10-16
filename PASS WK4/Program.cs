@@ -75,9 +75,6 @@
             /**a) explanation the do while, the do while loop is going to complete at least once the loop and then is going to chech if the condition 
             is still true, otherwise is going to stop.
             */
-
-
-
             //b) example code (loop while meaning of life is != 42 )
             meaningOfLife = 0;
 
