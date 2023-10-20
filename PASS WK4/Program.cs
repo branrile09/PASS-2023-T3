@@ -122,20 +122,34 @@
             Console.WriteLine(vowelQuantity);
 
 
-            
+
             // resource -> https://www.w3schools.com/cs/cs_arrays.php
+            // resource -> https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/arrays (i like this one a little better)
             // ----- Arrays ----
             //1. Create an Array of intigers            
-
+            
+            int [] myNum = {10, 20, 30, 40};
+            int[] myNum2 = new int[10];
+            
+            
 
             //2. Create an Array of strings
-
+            string[] letterS = { "a", "b" ,"c" };
+            string[] cars = {"volvo","bmw","Holden"};
 
             //3. Create a 2d Array of intigers size 20x20
+            int[,] twoDarray = new int[2 ,1];
 
+            int[,] DDArray = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+            //a jagged array is like having an array of arrays, for each element we are using another array inside.
+            int[][] dDJaggedArray = new int[6][];
+            dDJaggedArray[0]= new int[4] { 1, 2, 3, 4 };
 
             //4. Create a list of boolean
 
+            List<int> list = new List<int>();
+      
 
             //5. explain the difference between list and array
             //
