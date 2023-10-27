@@ -72,12 +72,15 @@
             Console.WriteLine(x);
 
 
-
+            // resource -> https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/local-functions
             // ----- Functions to make/choose from ----
             // 1. calculate average of numbers from an array // taner
             int[] numbers = {2,4,6,8,10};
-            calcAVG(numbers);
+            Console.WriteLine("average number calculation of even numbers 2 to 10");
+            Console.WriteLine(calcAVG(numbers));
+            Console.WriteLine(calcAVG(12));
 
+           
             
             // 2. a function that tells you if the number is even //Titus
             // 3. fibonacci sequence
@@ -128,21 +131,35 @@
             int total= 0;
             int size = numbers.Count();
 
+            //add all the numbers together to find the total
             foreach (int number in numbers) 
             {
-            
-            
+                total += number;
             }
 
-
-
+            // avg is total divided by size
             double average = total / size;
-
-
-
 
             return average;
         
+        }
+
+        //set size of array, then values are randomized
+        static double calcAVG(int n)
+        {
+            int[] numbers = new int[n];
+            Random rnd = new Random();
+            
+            for (int i = 0; i < n; i++)
+            {
+                numbers[i] = rnd.Next(1, 900);
+                Console.WriteLine(numbers[i]);
+            }
+
+            double average = calcAVG(numbers);
+
+            return average;
+
         }
 
 
