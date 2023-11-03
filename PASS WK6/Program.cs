@@ -147,7 +147,8 @@
                 age = i;
         }
 
-        public string getName()
+
+        public string getName()
         {
             return name;
         }
