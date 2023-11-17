@@ -18,8 +18,8 @@
             *
             *  ----- 25min to go through this -----
             *  
-            *  3. 
-            *  4. 
+            *  3. Inheritence
+            *  4. deal damage
             *  
             *  ----- 5-10 min Q&A -----
             * 
@@ -35,8 +35,8 @@
             *  
             *  ----- Next week -----
             *  
-            *  revise custom objects (Module 6)
-            *  Objects and inheritance (Module 7)
+            * 
+            *  
             *      
             * 
            */
